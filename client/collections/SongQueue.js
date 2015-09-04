@@ -20,6 +20,7 @@ var SongQueue = Songs.extend({
       this.remove(song);
     }
   },
+  
   playFirst: function(song){
     this.at(0).play();
   },
